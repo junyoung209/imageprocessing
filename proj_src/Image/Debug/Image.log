@@ -1,0 +1,37 @@
+﻿빌드 시작: 2017-12-02 오전 2:16:04
+     1>2 노드의 "C:\Users\Great Park\Documents\Visual Studio 2013\Projects\Image\Image\Image.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Great Park\Downloads\opencv\build\include" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\api" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\ccmain" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\ccutil" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\ccstruct" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\classify" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\cube" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\cutil" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\dict" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\image" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\neural_networks\runtime" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\textord" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\viewer" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\wordrec" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\include" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\include\leptonica" /I"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\vs2008\port" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Image.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Image.cpp
+         Image.cpp
+     1>c:\users\great park\downloads\ocr\tesseract-ocr\include\leptonica\pix.h(169): warning C4305: '초기화 중' : 'double'에서 'const l_float32'(으)로 잘립니다.
+     1>c:\users\great park\downloads\ocr\tesseract-ocr\include\leptonica\pix.h(171): warning C4305: '초기화 중' : 'double'에서 'const l_float32'(으)로 잘립니다.
+     1>c:\users\great park\downloads\ocr\tesseract-ocr\ccutil\platform.h(33): warning C4005: 'snprintf' : 매크로 재정의
+                 c:\users\great park\downloads\ocr\tesseract-ocr\include\leptonica\environ.h(277) : 'snprintf'의 이전 정의를 참조하십시오.
+     1>c:\users\great park\downloads\ocr\tesseract-ocr\ccutil\strngs.h(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\great park\downloads\ocr\tesseract-ocr\ccutil\unicharset.h(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(195) : 'strncpy' 선언을 참조하십시오.
+     1>c:\users\great park\downloads\ocr\tesseract-ocr\ccutil\unicharset.h(274): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\great park\downloads\ocr\tesseract-ocr\ccutil\unicharset.h(299): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\great park\downloads\opencv\build\include\opencv2\core\mat.hpp(1965): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\great park\downloads\opencv\build\include\opencv2\core\persistence.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\great park\downloads\opencv\build\include\opencv2\core\utility.hpp : warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+     1>c:\users\great park\documents\visual studio 2013\projects\image\image\image.cpp(86): warning C4244: '인수' : 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\great park\documents\visual studio 2013\projects\image\image\image.cpp(138): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(112) : 'strcpy' 선언을 참조하십시오.
+     1>c:\users\great park\documents\visual studio 2013\projects\image\image\image.cpp(157): warning C4244: '초기화 중' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>c:\users\great park\documents\visual studio 2013\projects\image\image\image.cpp(184): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\great park\documents\visual studio 2013\projects\image\image\image.cpp(200): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>c:\users\great park\documents\visual studio 2013\projects\image\image\image.cpp(176): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Great Park\Documents\Visual Studio 2013\Projects\Image\Debug\Image.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\vs2008\libtesseract" /LIBPATH:"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\vs2008\DLL_Release" /LIBPATH:"C:\Users\Great Park\Downloads\ocr\Tesseract-OCR\lib" /LIBPATH:C /LIBPATH:\opencv\build\x64\vc12\lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Great Park\Documents\Visual Studio 2013\Projects\Image\Debug\Image.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Great Park\Documents\Visual Studio 2013\Projects\Image\Debug\Image.lib" /MACHINE:X86 Debug\BinaryTree.obj
+         Debug\Image.obj
+         Debug\stdafx.obj
+         Image.vcxproj -> C:\Users\Great Park\Documents\Visual Studio 2013\Projects\Image\Debug\Image.exe
+     1>"C:\Users\Great Park\Documents\Visual Studio 2013\Projects\Image\Image\Image.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:08.39
